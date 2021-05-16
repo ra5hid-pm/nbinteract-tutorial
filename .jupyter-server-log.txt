@@ -704,3 +704,254 @@ TermSocket.open: Opened 1
 [I 17:15:42.366 NotebookApp] Starting buffering for 416032de-3bc0-400f-ba66-891bafabe393:039f7ced0340467791a150053098d8ac
 [W 17:15:51.423 NotebookApp] Notebook Matplotlib Exercises .ipynb is not trusted
 [I 17:15:53.932 NotebookApp] Kernel started: 0d9483ab-2f9c-448c-adc0-3d11baab3cc1, name: python3
+[W 17:26:14.761 NotebookApp] Culling 'idle' kernel 'python3' (416032de-3bc0-400f-ba66-891bafabe393) with 0 connections due to 638 seconds of inactivity.
+[I 17:26:14.766 NotebookApp] Kernel shutdown: 416032de-3bc0-400f-ba66-891bafabe393
+[W 17:26:15.070 NotebookApp] Culling 'idle' kernel 'python3' (0d9483ab-2f9c-448c-adc0-3d11baab3cc1) with 1 connections due to 619 seconds of inactivity.
+[I 17:26:15.071 NotebookApp] Kernel shutdown: 0d9483ab-2f9c-448c-adc0-3d11baab3cc1
+[W 17:26:15.665 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/sessions/084421dd-30a2-45ad-bf47-11441b0443b6 (117.196.252.225): Kernel deleted before session
+[W 17:26:15.665 NotebookApp] Kernel deleted before session
+[W 17:26:15.666 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/sessions/084421dd-30a2-45ad-bf47-11441b0443b6 (117.196.252.225) 2.180000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Matplotlib%20Exercises%20.ipynb
+[I 17:30:41.515 NotebookApp] Kernel started: f2921999-b4a8-457d-a7df-4dc6f2f07422, name: python3
+[I 17:31:42.445 NotebookApp] Saving file at /Curries.ipynb
+[E 17:31:42.454 NotebookApp] Error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 266, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 20, in generate_corpus_id
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 15, in acceptable_adjectives
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:31:42.455 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225): Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:31:42.455 NotebookApp] Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[E 17:31:42.456 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621183609|30:username-hub-gke2-mybinder-org|44:YWJjYjcwMmU4MGExNDVmMzk3OGI3ZjBlNmNhZThmNjM=|4e45eb32acba1f080bba177582f5c38822597a4ab96a64e906cca8c3b87a0607\"; _xsrf=2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "1148",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "117.196.252.225,::ffff:10.0.10.8",
+      "X-Real-Ip": "117.196.252.225",
+      "X-Request-Id": "6e52832bbddf863ee252471d73cb31a4",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:31:42.456 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225) 12.240000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb
+[I 17:32:39.656 NotebookApp] Saving file at /Curries.ipynb
+[E 17:32:39.665 NotebookApp] Error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 266, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 20, in generate_corpus_id
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 15, in acceptable_adjectives
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:32:39.666 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225): Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:32:39.666 NotebookApp] Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[E 17:32:39.667 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621183609|30:username-hub-gke2-mybinder-org|44:YWJjYjcwMmU4MGExNDVmMzk3OGI3ZjBlNmNhZThmNjM=|4e45eb32acba1f080bba177582f5c38822597a4ab96a64e906cca8c3b87a0607\"; _xsrf=2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "1342",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "117.196.252.225,::ffff:10.0.10.8",
+      "X-Real-Ip": "117.196.252.225",
+      "X-Request-Id": "716bfe09ff2ac37059642f5771ac9320",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:32:39.667 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225) 12.470000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb
+[I 17:32:41.776 NotebookApp] Saving file at /Curries.ipynb
+[E 17:32:41.786 NotebookApp] Error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 266, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 20, in generate_corpus_id
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 15, in acceptable_adjectives
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:32:41.786 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225): Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:32:41.787 NotebookApp] Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[E 17:32:41.787 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621183609|30:username-hub-gke2-mybinder-org|44:YWJjYjcwMmU4MGExNDVmMzk3OGI3ZjBlNmNhZThmNjM=|4e45eb32acba1f080bba177582f5c38822597a4ab96a64e906cca8c3b87a0607\"; _xsrf=2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "1342",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "117.196.252.225,::ffff:10.0.10.8",
+      "X-Real-Ip": "117.196.252.225",
+      "X-Request-Id": "de1e5567edc93b76ff898247de847a23",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:32:41.787 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225) 12.290000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb
+[I 17:34:33.383 NotebookApp] Saving file at /Curries.ipynb
+[E 17:34:33.392 NotebookApp] Error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 266, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 20, in generate_corpus_id
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 15, in acceptable_adjectives
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:34:33.393 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225): Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:34:33.393 NotebookApp] Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[E 17:34:33.394 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621183609|30:username-hub-gke2-mybinder-org|44:YWJjYjcwMmU4MGExNDVmMzk3OGI3ZjBlNmNhZThmNjM=|4e45eb32acba1f080bba177582f5c38822597a4ab96a64e906cca8c3b87a0607\"; _xsrf=2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "2342",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "117.196.252.225,::ffff:10.0.10.8",
+      "X-Real-Ip": "117.196.252.225",
+      "X-Request-Id": "4558823fb8783f6df3ae9975d3ddf41b",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:34:33.394 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225) 12.150000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb
+[I 17:34:42.109 NotebookApp] Saving file at /Curries.ipynb
+[E 17:34:42.123 NotebookApp] Error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 266, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 20, in generate_corpus_id
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 15, in acceptable_adjectives
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:34:42.124 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225): Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:34:42.124 NotebookApp] Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[E 17:34:42.125 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621183609|30:username-hub-gke2-mybinder-org|44:YWJjYjcwMmU4MGExNDVmMzk3OGI3ZjBlNmNhZThmNjM=|4e45eb32acba1f080bba177582f5c38822597a4ab96a64e906cca8c3b87a0607\"; _xsrf=2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "2342",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "117.196.252.225,::ffff:10.0.10.8",
+      "X-Real-Ip": "117.196.252.225",
+      "X-Request-Id": "969901b73158d3efb94195f32679d7e6",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:34:42.125 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225) 16.720000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb
+[I 17:35:13.839 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
+[I 17:36:41.814 NotebookApp] Saving file at /Curries.ipynb
+[E 17:36:41.825 NotebookApp] Error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/filemanager.py", line 477, in save
+        self._save_notebook(os_path, nb)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/fileio.py", line 291, in _save_notebook
+        nbformat.write(nb, f, version=nbformat.NO_CONVERT)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 164, in write
+        return write(nb, f, version=version, **kwargs)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/__init__.py", line 107, in writes
+        try:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 266, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 20, in generate_corpus_id
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/words.py", line 15, in acceptable_adjectives
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:36:41.826 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225): Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[W 17:36:41.826 NotebookApp] Unexpected error while saving file: Curries.ipynb [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/corpus/adjectives.txt'
+[E 17:36:41.827 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621183609|30:username-hub-gke2-mybinder-org|44:YWJjYjcwMmU4MGExNDVmMzk3OGI3ZjBlNmNhZThmNjM=|4e45eb32acba1f080bba177582f5c38822597a4ab96a64e906cca8c3b87a0607\"; _xsrf=2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|34e9a513|5bd98113160380829d02d69d0fba51f4|1621183609",
+      "Content-Type": "application/json",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "2342",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "117.196.252.225,::ffff:10.0.10.8",
+      "X-Real-Ip": "117.196.252.225",
+      "X-Request-Id": "0de452eecfdef2f5dd1bb5396117baa6",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:36:41.827 NotebookApp] 500 PUT /user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/api/contents/Curries.ipynb (117.196.252.225) 14.940000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-a8klkqv9/notebooks/Curries.ipynb
