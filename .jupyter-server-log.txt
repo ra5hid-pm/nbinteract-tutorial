@@ -2073,3 +2073,100 @@ TermSocket.open: Opened 1
 [I 06:07:06.932 NotebookApp] Saving file at /monty.ipynb
 [I 06:09:06.939 NotebookApp] Saving file at /monty.ipynb
 [I 06:11:06.948 NotebookApp] Saving file at /monty.ipynb
+[W 06:20:49.759 NotebookApp] Culling 'idle' kernel 'python3' (feb91b2a-06e8-4d98-badf-3acf4ca230bb) with 1 connections due to 603 seconds of inactivity.
+[I 06:20:49.761 NotebookApp] Kernel shutdown: feb91b2a-06e8-4d98-badf-3acf4ca230bb
+[W 06:20:51.240 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/8e5cd43e-b2e5-4aab-8aea-3e6923c1992c (112.133.233.141): Kernel deleted before session
+[W 06:20:51.240 NotebookApp] Kernel deleted before session
+[W 06:20:51.241 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/8e5cd43e-b2e5-4aab-8aea-3e6923c1992c (112.133.233.141) 2.880000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/monty.ipynb
+[W 06:21:32.934 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/8e5cd43e-b2e5-4aab-8aea-3e6923c1992c (112.133.233.141): Session not found: session_id='8e5cd43e-b2e5-4aab-8aea-3e6923c1992c'
+[W 06:21:32.935 NotebookApp] Session not found: session_id='8e5cd43e-b2e5-4aab-8aea-3e6923c1992c'
+[W 06:21:32.936 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/8e5cd43e-b2e5-4aab-8aea-3e6923c1992c (112.133.233.141) 3.080000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/monty.ipynb
+[I 06:21:33.260 NotebookApp] Kernel started: 3f08d27c-b56b-49f5-b6ff-0235ab389b5f, name: python3
+[I 06:21:35.226 NotebookApp] Saving file at /monty.ipynb
+[W 06:31:48.689 NotebookApp] WebSocket ping timeout after 119685 ms.
+[W 06:31:49.759 NotebookApp] Culling 'idle' kernel 'python3' (3f08d27c-b56b-49f5-b6ff-0235ab389b5f) with 1 connections due to 615 seconds of inactivity.
+[I 06:31:49.760 NotebookApp] Kernel shutdown: 3f08d27c-b56b-49f5-b6ff-0235ab389b5f
+[W 06:31:50.376 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/07d96402-fce8-4aa1-8393-a8d3d2b0126e (112.133.233.141): Kernel deleted before session
+[W 06:31:50.376 NotebookApp] Kernel deleted before session
+[W 06:31:50.376 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/07d96402-fce8-4aa1-8393-a8d3d2b0126e (112.133.233.141) 1.920000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/monty.ipynb
+Websocket closed
+[W 06:32:34.965 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/07d96402-fce8-4aa1-8393-a8d3d2b0126e (112.133.233.141): Session not found: session_id='07d96402-fce8-4aa1-8393-a8d3d2b0126e'
+[W 06:32:34.965 NotebookApp] Session not found: session_id='07d96402-fce8-4aa1-8393-a8d3d2b0126e'
+[W 06:32:34.966 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/07d96402-fce8-4aa1-8393-a8d3d2b0126e (112.133.233.141) 2.000000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/monty.ipynb
+[I 06:32:35.305 NotebookApp] Kernel started: dbb5edf0-0356-4533-934d-390ecd38fe67, name: python3
+[I 06:41:46.663 NotebookApp] Creating new notebook in 
+[I 06:41:48.968 NotebookApp] Kernel started: 72917a3b-ec05-4569-bc65-882fe31f0e43, name: python3
+[I 06:42:06.493 NotebookApp] Starting buffering for dbb5edf0-0356-4533-934d-390ecd38fe67:54887bb840b1408a9e01eb5e7d6ed656
+[W 06:42:49.759 NotebookApp] Culling 'idle' kernel 'python3' (dbb5edf0-0356-4533-934d-390ecd38fe67) with 0 connections due to 613 seconds of inactivity.
+[I 06:42:49.759 NotebookApp] Kernel shutdown: dbb5edf0-0356-4533-934d-390ecd38fe67
+[I 06:43:49.265 NotebookApp] Saving file at /mcq.ipynb
+[I 06:45:49.269 NotebookApp] Saving file at /mcq.ipynb
+[I 06:47:49.274 NotebookApp] Saving file at /mcq.ipynb
+[I 06:48:10.217 NotebookApp] Starting buffering for 72917a3b-ec05-4569-bc65-882fe31f0e43:6adbfcb31326454388251ae0148b8324
+[I 06:48:10.735 NotebookApp] Kernel restarted: 72917a3b-ec05-4569-bc65-882fe31f0e43
+[I 06:48:11.871 NotebookApp] Restoring connection for 72917a3b-ec05-4569-bc65-882fe31f0e43:6adbfcb31326454388251ae0148b8324
+[I 06:48:11.876 NotebookApp] Replaying 5 buffered messages
+[I 06:49:49.273 NotebookApp] Saving file at /mcq.ipynb
+[W 06:58:49.758 NotebookApp] Culling 'idle' kernel 'python3' (72917a3b-ec05-4569-bc65-882fe31f0e43) with 1 connections due to 635 seconds of inactivity.
+[I 06:58:49.759 NotebookApp] Kernel shutdown: 72917a3b-ec05-4569-bc65-882fe31f0e43
+[W 06:58:50.489 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/9d950093-2854-498f-a5b8-4a0d2960ab9c (112.133.233.141): Kernel deleted before session
+[W 06:58:50.490 NotebookApp] Kernel deleted before session
+[W 06:58:50.490 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/9d950093-2854-498f-a5b8-4a0d2960ab9c (112.133.233.141) 1.920000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/mcq.ipynb
+[E 07:03:33.495 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 72917a3b-ec05-4569-bc65-882fe31f0e43)
+[E 07:03:33.503 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1621313452|30:username-hub-gke2-mybinder-org|44:NmZmNTdhMTgxZjdjNDZkM2IxMzA4OTBhOGEzODM5YWY=|eafe54f4e9dc75691cccfc3a342905413dab595261a08a149fd37eaa5ff14354\"; _xsrf=2|0b2de71d|c1789b70b7d2fdfebbc0ece59fffdd6d|1621249344",
+      "Referer": "https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/mcq.ipynb",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|0b2de71d|c1789b70b7d2fdfebbc0ece59fffdd6d|1621249344",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "112.133.233.141,::ffff:10.0.14.6",
+      "X-Real-Ip": "112.133.233.141",
+      "X-Request-Id": "b6d74326abb37e36b9e2c25fbac1e68a",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 07:03:33.503 NotebookApp] 500 POST /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/kernels/72917a3b-ec05-4569-bc65-882fe31f0e43/restart (112.133.233.141) 7.540000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/mcq.ipynb
+[W 07:03:33.807 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/9d950093-2854-498f-a5b8-4a0d2960ab9c (112.133.233.141): Session not found: session_id='9d950093-2854-498f-a5b8-4a0d2960ab9c'
+[W 07:03:33.808 NotebookApp] Session not found: session_id='9d950093-2854-498f-a5b8-4a0d2960ab9c'
+[W 07:03:33.808 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/9d950093-2854-498f-a5b8-4a0d2960ab9c (112.133.233.141) 2.190000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/mcq.ipynb
+[I 07:03:34.149 NotebookApp] Kernel started: 0749e3d9-210c-458f-b008-d1f58d7afe7e, name: python3
+[I 07:03:42.421 NotebookApp] Starting buffering for 0749e3d9-210c-458f-b008-d1f58d7afe7e:6adbfcb31326454388251ae0148b8324
+[I 07:03:42.857 NotebookApp] Kernel restarted: 0749e3d9-210c-458f-b008-d1f58d7afe7e
+[I 07:03:43.758 NotebookApp] Restoring connection for 0749e3d9-210c-458f-b008-d1f58d7afe7e:6adbfcb31326454388251ae0148b8324
+[I 07:03:43.764 NotebookApp] Replaying 6 buffered messages
+[I 07:03:49.327 NotebookApp] Saving file at /mcq.ipynb
+[I 07:07:49.365 NotebookApp] Saving file at /mcq.ipynb
+[I 07:13:49.363 NotebookApp] Saving file at /mcq.ipynb
+[I 07:15:49.399 NotebookApp] Saving file at /mcq.ipynb
+[W 07:24:49.759 NotebookApp] Culling 'idle' kernel 'python3' (0749e3d9-210c-458f-b008-d1f58d7afe7e) with 1 connections due to 639 seconds of inactivity.
+[I 07:24:49.761 NotebookApp] Kernel shutdown: 0749e3d9-210c-458f-b008-d1f58d7afe7e
+[W 07:24:51.294 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/c204478c-75b9-401a-bb48-c66290946586 (112.133.233.141): Kernel deleted before session
+[W 07:24:51.294 NotebookApp] Kernel deleted before session
+[W 07:24:51.295 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/c204478c-75b9-401a-bb48-c66290946586 (112.133.233.141) 2.600000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/mcq.ipynb
+[W 07:40:01.890 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/c204478c-75b9-401a-bb48-c66290946586 (112.133.233.141): Session not found: session_id='c204478c-75b9-401a-bb48-c66290946586'
+[W 07:40:01.891 NotebookApp] Session not found: session_id='c204478c-75b9-401a-bb48-c66290946586'
+[W 07:40:01.891 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/c204478c-75b9-401a-bb48-c66290946586 (112.133.233.141) 22.650000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/mcq.ipynb
+[I 07:40:02.225 NotebookApp] Kernel started: 5ecd9f77-2914-4d8a-b68b-7e249108b21d, name: python3
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 07:43:36.081 NotebookApp] Saving file at /mcq.ipynb
+[I 07:43:44.318 NotebookApp] Starting buffering for 5ecd9f77-2914-4d8a-b68b-7e249108b21d:6adbfcb31326454388251ae0148b8324
