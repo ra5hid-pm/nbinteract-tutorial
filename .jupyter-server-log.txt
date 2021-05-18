@@ -2020,3 +2020,55 @@ TermSocket.open: Opened 1
 [W 05:08:51.170 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/b45214d7-df7d-4d98-8d36-b2358d425a84 (112.133.233.141): Kernel deleted before session
 [W 05:08:51.170 NotebookApp] Kernel deleted before session
 [W 05:08:51.171 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/b45214d7-df7d-4d98-8d36-b2358d425a84 (112.133.233.141) 2.350000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/Curries.ipynb
+[W 05:11:38.647 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/b45214d7-df7d-4d98-8d36-b2358d425a84 (112.133.233.141): Session not found: session_id='b45214d7-df7d-4d98-8d36-b2358d425a84'
+[W 05:11:38.648 NotebookApp] Session not found: session_id='b45214d7-df7d-4d98-8d36-b2358d425a84'
+[W 05:11:38.649 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/b45214d7-df7d-4d98-8d36-b2358d425a84 (112.133.233.141) 3.470000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/Curries.ipynb
+[I 05:11:38.970 NotebookApp] Kernel started: ef448871-d2b7-4631-88c9-d0892c3cde8c, name: python3
+[W 05:21:49.759 NotebookApp] Culling 'idle' kernel 'python3' (ef448871-d2b7-4631-88c9-d0892c3cde8c) with 1 connections due to 609 seconds of inactivity.
+[I 05:21:49.760 NotebookApp] Kernel shutdown: ef448871-d2b7-4631-88c9-d0892c3cde8c
+[W 05:21:50.386 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/e9d42de5-5457-437d-90be-cc6a9ba4a73f (112.133.233.141): Kernel deleted before session
+[W 05:21:50.386 NotebookApp] Kernel deleted before session
+[W 05:21:50.387 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/e9d42de5-5457-437d-90be-cc6a9ba4a73f (112.133.233.141) 2.400000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/Curries.ipynb
+[I 05:25:02.041 NotebookApp] Creating new notebook in 
+[I 05:25:04.178 NotebookApp] Kernel started: fd5999c7-87d0-4397-b6a8-687ad2ffccb6, name: python3
+[I 05:27:04.463 NotebookApp] Saving file at /Untitled.ipynb
+[W 05:35:49.759 NotebookApp] Culling 'idle' kernel 'python3' (fd5999c7-87d0-4397-b6a8-687ad2ffccb6) with 1 connections due to 644 seconds of inactivity.
+[I 05:35:49.760 NotebookApp] Kernel shutdown: fd5999c7-87d0-4397-b6a8-687ad2ffccb6
+[W 05:35:50.378 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/567a2b9c-9f6a-4ea2-9bfe-523a844b5c67 (112.133.233.141): Kernel deleted before session
+[W 05:35:50.378 NotebookApp] Kernel deleted before session
+[W 05:35:50.379 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/567a2b9c-9f6a-4ea2-9bfe-523a844b5c67 (112.133.233.141) 2.070000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/Untitled.ipynb?kernel_name=python3
+[W 05:36:21.138 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/567a2b9c-9f6a-4ea2-9bfe-523a844b5c67 (112.133.233.141): Session not found: session_id='567a2b9c-9f6a-4ea2-9bfe-523a844b5c67'
+[W 05:36:21.138 NotebookApp] Session not found: session_id='567a2b9c-9f6a-4ea2-9bfe-523a844b5c67'
+[W 05:36:21.139 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/567a2b9c-9f6a-4ea2-9bfe-523a844b5c67 (112.133.233.141) 1.540000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/Untitled.ipynb?kernel_name=python3
+[I 05:36:21.475 NotebookApp] Kernel started: ea7b37da-71d6-4491-a797-0e19fd53304c, name: python3
+[I 05:37:04.484 NotebookApp] Saving file at /mhsimul.ipynb
+[I 05:37:20.967 NotebookApp] Saving file at /mhsimul.ipynb
+[I 05:39:04.508 NotebookApp] Saving file at /monty.ipynb
+[I 05:39:41.641 NotebookApp] Saving file at /monty.ipynb
+[I 05:39:49.134 NotebookApp] Saving file at /monty.ipynb
+[I 05:39:49.779 NotebookApp] Saving file at /monty.ipynb
+[I 05:39:50.051 NotebookApp] Saving file at /monty.ipynb
+[I 05:41:04.522 NotebookApp] Saving file at /monty.ipynb
+[I 05:42:51.069 NotebookApp] Saving file at /monty.ipynb
+[I 05:47:04.795 NotebookApp] Saving file at /monty.ipynb
+[I 05:49:04.531 NotebookApp] Saving file at /monty.ipynb
+[W 06:03:49.758 NotebookApp] Culling 'idle' kernel 'python3' (ea7b37da-71d6-4491-a797-0e19fd53304c) with 1 connections due to 629 seconds of inactivity.
+[I 06:03:49.759 NotebookApp] Kernel shutdown: ea7b37da-71d6-4491-a797-0e19fd53304c
+[W 06:03:50.607 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/fb26a4ac-a599-43de-9f24-759c68888b7b (112.133.233.141): Kernel deleted before session
+[W 06:03:50.608 NotebookApp] Kernel deleted before session
+[W 06:03:50.609 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/fb26a4ac-a599-43de-9f24-759c68888b7b (112.133.233.141) 2.770000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/monty.ipynb
+[W 06:04:57.860 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/fb26a4ac-a599-43de-9f24-759c68888b7b (112.133.233.141): Session not found: session_id='fb26a4ac-a599-43de-9f24-759c68888b7b'
+[W 06:04:57.861 NotebookApp] Session not found: session_id='fb26a4ac-a599-43de-9f24-759c68888b7b'
+[W 06:04:57.861 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/api/sessions/fb26a4ac-a599-43de-9f24-759c68888b7b (112.133.233.141) 2.330000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-lc13dw2a/notebooks/monty.ipynb
+[I 06:04:58.190 NotebookApp] Kernel started: feb91b2a-06e8-4d98-badf-3acf4ca230bb, name: python3
+[IPKernelApp] WARNING | No such comm: aba221cb2a424768be8ea1c96a5bcc9e
+[IPKernelApp] WARNING | No such comm: aba221cb2a424768be8ea1c96a5bcc9e
+[IPKernelApp] WARNING | No such comm: aba221cb2a424768be8ea1c96a5bcc9e
+[IPKernelApp] WARNING | No such comm: aba221cb2a424768be8ea1c96a5bcc9e
+[I 06:06:37.080 NotebookApp] Saving file at /monty.ipynb
+[I 06:06:59.138 NotebookApp] Starting buffering for feb91b2a-06e8-4d98-badf-3acf4ca230bb:54887bb840b1408a9e01eb5e7d6ed656
+[I 06:06:59.460 NotebookApp] Kernel restarted: feb91b2a-06e8-4d98-badf-3acf4ca230bb
+[I 06:07:00.372 NotebookApp] Restoring connection for feb91b2a-06e8-4d98-badf-3acf4ca230bb:54887bb840b1408a9e01eb5e7d6ed656
+[I 06:07:00.376 NotebookApp] Replaying 5 buffered messages
+[I 06:07:06.932 NotebookApp] Saving file at /monty.ipynb
+[I 06:09:06.939 NotebookApp] Saving file at /monty.ipynb
