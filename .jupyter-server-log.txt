@@ -2229,3 +2229,8 @@ TermSocket.open: Opened 1
 [I 06:42:41.285 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 06:48:31.146 NotebookApp] Saving file at /mcq.ipynb
+[I 06:52:31.140 NotebookApp] Saving file at /mcq.ipynb
+[I 06:52:46.757 NotebookApp] Saving file at /mcq.ipynb
+[I 06:52:47.702 NotebookApp] Saving file at /mcq.ipynb
+[I 06:52:47.788 NotebookApp] Saving file at /mcq.ipynb
