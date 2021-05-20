@@ -2234,3 +2234,58 @@ TermSocket.open: Opened 1
 [I 06:52:46.757 NotebookApp] Saving file at /mcq.ipynb
 [I 06:52:47.702 NotebookApp] Saving file at /mcq.ipynb
 [I 06:52:47.788 NotebookApp] Saving file at /mcq.ipynb
+[I 06:58:28.838 NotebookApp] Kernel restarted: 822b9852-10e9-475c-a5ed-77739153959a
+[I 06:58:28.845 NotebookApp] Starting buffering for 822b9852-10e9-475c-a5ed-77739153959a:e406b512eefb4672ad805ee727d103c7
+[I 06:58:29.772 NotebookApp] Restoring connection for 822b9852-10e9-475c-a5ed-77739153959a:e406b512eefb4672ad805ee727d103c7
+[I 06:58:30.279 NotebookApp] Replaying 2 buffered messages
+[I 06:58:31.407 NotebookApp] Saving file at /mcq.ipynb
+[I 06:58:38.642 NotebookApp] Saving file at /mcq.ipynb
+[W 06:58:41.462 NotebookApp] 404 GET /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/nbconvert/html/custom.css (112.133.233.141): No such file or directory: custom.css
+[W 06:58:41.472 NotebookApp] 404 GET /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/nbconvert/html/custom.css (112.133.233.141) 35.420000ms referer=https://hub.gke2.mybinder.org/
+[I 07:02:31.432 NotebookApp] Saving file at /mcq.ipynb
+[I 07:03:38.678 NotebookApp] Saving file at /mcq.ipynb
+[W 07:03:39.019 NotebookApp] Notebook mcq.ipynb is not trusted
+[W 07:13:29.900 NotebookApp] Culling 'idle' kernel 'python3' (822b9852-10e9-475c-a5ed-77739153959a) with 1 connections due to 634 seconds of inactivity.
+[I 07:13:29.901 NotebookApp] Kernel shutdown: 822b9852-10e9-475c-a5ed-77739153959a
+[W 07:13:30.536 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/77dfa734-60ad-461c-9561-cf65c6ac4f7f (112.133.233.141): Kernel deleted before session
+[W 07:13:30.536 NotebookApp] Kernel deleted before session
+[W 07:13:30.537 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/77dfa734-60ad-461c-9561-cf65c6ac4f7f (112.133.233.141) 2.370000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/notebooks/mcq.ipynb
+[W 07:13:59.533 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/77dfa734-60ad-461c-9561-cf65c6ac4f7f (112.133.233.141): Session not found: session_id='77dfa734-60ad-461c-9561-cf65c6ac4f7f'
+[W 07:13:59.533 NotebookApp] Session not found: session_id='77dfa734-60ad-461c-9561-cf65c6ac4f7f'
+[W 07:13:59.533 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/77dfa734-60ad-461c-9561-cf65c6ac4f7f (112.133.233.141) 1.640000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/notebooks/mcq.ipynb
+[I 07:13:59.864 NotebookApp] Kernel started: 2fb3881c-56f9-446e-9ad5-cef99a1b40e1, name: python3
+[I 07:16:31.628 NotebookApp] Saving file at /mcq.ipynb
+[I 07:18:32.243 NotebookApp] Saving file at /mcq.ipynb
+[W 07:27:29.900 NotebookApp] Culling 'idle' kernel 'python3' (2fb3881c-56f9-446e-9ad5-cef99a1b40e1) with 1 connections due to 618 seconds of inactivity.
+[I 07:27:29.901 NotebookApp] Kernel shutdown: 2fb3881c-56f9-446e-9ad5-cef99a1b40e1
+[W 07:27:30.521 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/82d05dc9-5c75-4bd1-90c8-5bbc14feb878 (112.133.233.141): Kernel deleted before session
+[W 07:27:30.521 NotebookApp] Kernel deleted before session
+[W 07:27:30.522 NotebookApp] 410 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/82d05dc9-5c75-4bd1-90c8-5bbc14feb878 (112.133.233.141) 2.320000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/notebooks/mcq.ipynb
+[W 07:33:46.337 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/82d05dc9-5c75-4bd1-90c8-5bbc14feb878 (112.133.233.141): Session not found: session_id='82d05dc9-5c75-4bd1-90c8-5bbc14feb878'
+[W 07:33:46.337 NotebookApp] Session not found: session_id='82d05dc9-5c75-4bd1-90c8-5bbc14feb878'
+[W 07:33:46.338 NotebookApp] 404 DELETE /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/api/sessions/82d05dc9-5c75-4bd1-90c8-5bbc14feb878 (112.133.233.141) 9.380000ms referer=https://hub.gke2.mybinder.org/user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/notebooks/mcq.ipynb
+[I 07:33:46.690 NotebookApp] Kernel started: 9803861e-cb14-4f86-a762-9bd7a30c527c, name: python3
+[I 07:34:35.847 NotebookApp] Saving file at /mcq.ipynb
+[W 07:35:06.112 NotebookApp] 404 GET /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/files/custom.css (112.133.233.141) 2.750000ms referer=https://hub.gke2.mybinder.org/
+[W 07:35:25.177 NotebookApp] 404 GET /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/files/custom.css (112.133.233.141) 2.440000ms referer=https://hub.gke2.mybinder.org/
+[I 07:37:26.163 NotebookApp] Saving file at /mcq.ipynb
+[I 07:37:27.922 NotebookApp] Saving file at /mcq.ipynb
+[I 07:37:28.209 NotebookApp] Saving file at /mcq.ipynb
+[I 07:37:28.532 NotebookApp] Saving file at /mcq.ipynb
+[W 07:37:48.336 NotebookApp] 404 GET /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/files/custom.css (112.133.233.141) 2.430000ms referer=https://hub.gke2.mybinder.org/
+[I 07:38:36.760 NotebookApp] Saving file at /mcq.ipynb
+[I 07:40:36.761 NotebookApp] Saving file at /mcq.ipynb
+[I 07:45:41.108 NotebookApp] Starting buffering for 9803861e-cb14-4f86-a762-9bd7a30c527c:e406b512eefb4672ad805ee727d103c7
+[I 07:45:41.531 NotebookApp] Kernel restarted: 9803861e-cb14-4f86-a762-9bd7a30c527c
+[I 07:45:42.680 NotebookApp] Restoring connection for 9803861e-cb14-4f86-a762-9bd7a30c527c:e406b512eefb4672ad805ee727d103c7
+[I 07:45:42.686 NotebookApp] Replaying 6 buffered messages
+[I 07:46:37.258 NotebookApp] Saving file at /mcq.ipynb
+[I 07:48:16.316 NotebookApp] Saving file at /mcq.ipynb
+[W 07:49:00.257 NotebookApp] 404 GET /user/ra5hid-pm-nbinteract-tutorial-ku1cxqg2/files/custom.css (112.133.233.141) 2.410000ms referer=https://hub.gke2.mybinder.org/
+[I 07:52:37.275 NotebookApp] Saving file at /mcq.ipynb
+[I 07:52:41.588 NotebookApp] Saving file at /mcq.ipynb
+[I 07:52:42.451 NotebookApp] Saving file at /mcq.ipynb
+[I 07:52:42.732 NotebookApp] Saving file at /mcq.ipynb
+[I 07:52:44.819 NotebookApp] Saving file at /mcq.ipynb
+[I 07:52:45.670 NotebookApp] Saving file at /mcq.ipynb
+[I 07:52:45.953 NotebookApp] Saving file at /mcq.ipynb
